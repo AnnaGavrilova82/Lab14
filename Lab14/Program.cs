@@ -31,8 +31,9 @@ namespace Lab14
             
             public void ShowInfo()
             {
-                string say = Say();
-                Console.WriteLine("{0} {1}", Name, say);
+                
+                Console.Write("{0} ", Name);
+                Say();
             }
         }
         class Cat : Animal
